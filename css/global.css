@@ -1,0 +1,95 @@
+@import "reset.css";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.pokemonInfo-container {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pokemonNameID {
+  display: flex;
+}
+
+#pokemonName,
+#pokemonId {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#pokemonId {
+  margin-left: 10px;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+span {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  max-width: fit-content;
+}
+.pokemonAbilities p {
+  margin-top: 10px;
+}
+.pokemonAbilities span {
+  text-transform: capitalize;
+}
+.pokemonAbilities {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+#type-1 {
+  background-color: #7766ee;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+}
+#specie {
+  text-transform: capitalize;
+}
+#type-2 {
+  margin-left: 10px;
+  background-color: #8899ff;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+}
+
+.pokemonStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pokemonTypes {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.types {
+  margin-top: 20px;
+}

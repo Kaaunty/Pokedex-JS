@@ -1,0 +1,36 @@
+export let PokemonHTML = {
+  name: document.querySelector("#pokemonName"),
+  id: document.querySelector("#pokemonId"),
+  img: document.querySelector(".pokemonAnimation"),
+  firstType: document.querySelector("#type-1"),
+  secondType: document.querySelector("#type-2"),
+  height: document.querySelector("#height"),
+  weight: document.querySelector("#weight"),
+  specie: document.querySelector("#specie"),
+  abilityOne: document.querySelector("#ability-one"),
+  abilityTwo: document.querySelector("#ability-two"),
+  abilityThree: document.querySelector("#ability-three"),
+  abilityFour: document.querySelector("#ability-four"),
+};
+
+// export const colours = [
+//   normal = '#A8A77A',
+//   fire = '#EE8130',
+//   water = '#6390F0',
+//   electric = '#F7D02C',
+//   grass = '#7AC74C',
+//   ice = '#96D9D6',
+//   fighting = '#C22E28',
+//   poison = '#A33EA1',
+//   ground = '#E2BF65',
+//   flying = '#A98FF3',
+//   psychic = '#F95587',
+//   bug = '#A6B91A',
+//   rock = '#B6A136',
+//   ghost = '#735797',
+//   dragon = '#6F35FC',
+//   dark = '#705746',
+//   steel = '#B7B7CE',
+//   fairy = '#D685AD',
+// ]
+//   ;
